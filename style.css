@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+}
+h2{
+    font-family: "微軟正黑體"; 
+}
+p{
+    margin: 10px;
+    font-family:"微軟正黑體"; 
+}
+.bookmark{
+    background-color: azure;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 15%;
+    margin-right: 15%; 
+    letter-spacing: 3px;
+    font-weight: bold; 
+}
+a:hover{
+    color: rgb(0, 21, 255);
+}
+.collapsible {
+    background-color:rgb(151, 181, 236) ;
+    color: rgb(12, 17, 103);
+    font-family: "微軟正黑體";
+    text-align: left;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%; 
+    margin-bottom: 0%;
+    margin-top: 15px;
+    border-radius: 5px 5px 0 0;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    width: 70%;
+    font-size: 15px;
+    font-weight: bold; 
+    letter-spacing: 1px;
+}
+.collapsible:hover {
+background-color: #6278dc;
+color: beige;
+}
+.content {
+    background-color: whitesmoke;
+    margin-left: 15%;
+    margin-right: 15%; 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: block;
+    overflow: hidden;
+}
+.collapsible:after {
+content: "\25B2"; 
+font-size: 15px;
+color:rgb(12, 17, 103);
+float: right;
+margin-left: 5px;
+}
+.active:after {
+content: "\25BC"; 
+}
+.topBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 60px;
+z-index: 99;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: orange;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 4px;
+}
+.topBtn:hover {
+background-color: #555;
+}
